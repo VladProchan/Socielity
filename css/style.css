@@ -101,7 +101,7 @@ body {
 body {
   color: #666666;
   line-height: 1;
-  font-family: "Segoe UI";
+  font-family: SegoeUI;
   font-size: 1rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -113,7 +113,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Segoe UI";
+  font-family: SegoeUI;
   font-size: inherit;
   line-height: inherit;
 }
