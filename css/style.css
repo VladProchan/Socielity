@@ -722,9 +722,7 @@ h6 {
 .socielity__warp {
   display: -ms-grid;
   display: grid;
-  -webkit-column-gap: 1.875rem;
-     -moz-column-gap: 1.875rem;
-          column-gap: 1.875rem;
+  gap: 1.875rem;
   grid-template-columns: repeat(auto-fill, minmax(13.75rem, 1fr));
 }
 
@@ -740,6 +738,9 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   padding: 1.9375rem 1.0625rem 1.25rem 1.0625rem;
+  background: #F6F7FD;
+  border-radius: 0.5rem;
+  min-height: 16.6875rem;
 }
 
 .socielity-item__image {
